@@ -16,6 +16,7 @@
 		B21AEA8D28A26D4D008ED0BA /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21AEA8C28A26D4D008ED0BA /* CalculatorTests.swift */; };
 		B21AEA9728A26D4D008ED0BA /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21AEA9628A26D4D008ED0BA /* CalculatorUITests.swift */; };
 		B21AEA9928A26D4D008ED0BA /* CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21AEA9828A26D4D008ED0BA /* CalculatorUITestsLaunchTests.swift */; };
+		B21AEAA628A27811008ED0BA /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21AEAA528A27811008ED0BA /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B21AEA9228A26D4D008ED0BA /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21AEA9628A26D4D008ED0BA /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		B21AEA9828A26D4D008ED0BA /* CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B21AEAA528A27811008ED0BA /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B21AEA7E28A26D4D008ED0BA /* Assets.xcassets */,
 				B21AEA8028A26D4D008ED0BA /* LaunchScreen.storyboard */,
 				B21AEA8328A26D4D008ED0BA /* Info.plist */,
+				B21AEAA528A27811008ED0BA /* RoundButton.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B21AEAA628A27811008ED0BA /* RoundButton.swift in Sources */,
 				B21AEA7A28A26D4B008ED0BA /* ViewController.swift in Sources */,
 				B21AEA7628A26D4B008ED0BA /* AppDelegate.swift in Sources */,
 				B21AEA7828A26D4B008ED0BA /* SceneDelegate.swift in Sources */,
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FH49FN5F9A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FH49FN5F9A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
